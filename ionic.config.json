@@ -1,0 +1,8 @@
+{
+  "name": "SignUp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular",
+  "pro_id": "7e08e3dc"
+}

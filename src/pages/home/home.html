@@ -1,0 +1,24 @@
+<ion-header>
+ <ion-navbar>
+ <ion-title text-right>تسجيل</ion-title>
+ </ion-navbar>
+</ion-header>
+<ion-content padding>
+ <ion-list >
+ <ion-item>
+ <ion-label stacked text-right>اسم المستخدم</ion-label>
+ <ion-input type="text" [(ngModel)]="item.username" text-right></ion-input>
+ </ion-item>
+ <ion-item>
+ <ion-label stacked text-right>البريد الالكتروني</ion-label>
+ <ion-input type="text" [(ngModel)]="item.email" text-right></ion-input>
+ </ion-item>
+ <ion-item>
+ <ion-label stacked text-right>الرقم السري</ion-label>
+ <ion-input type="password" [(ngModel)]="item.pass" text-right></ion-input>
+ </ion-item>
+
+    <button ion-button (click)="insertx()" float-right >ادخال</button>
+
+ </ion-list>
+</ion-content>
